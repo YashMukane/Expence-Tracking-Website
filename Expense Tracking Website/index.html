@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Expense Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Expense Tracker</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="add-expense.html">Add Expense</a></li>
+                <li><a href="view-expenses.html">View Expenses</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main id="main-content">
+        <section id="home" class="page">
+            <h2>Monthly Summary</h2>
+            <div id="summary-info"></div>
+            <div id="set-limit-section">
+                <label for="set-limit-month">Set/Update Monthly Limit for:</label>
+                <input type="month" id="set-limit-month">
+                <button id="set-limit-btn">Set/Update Limit</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="home.js"></script>
+</body>
+</html>
